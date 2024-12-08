@@ -1467,3 +1467,24 @@ section,
 .starter-section {
   /* Add your styles here */
 }
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 20px;
+  color: #fff;
+  background-color: #b8a07e;
+  border: none;
+  border-radius: 22px;
+  text-decoration: none;
+  cursor: pointer; 
+}
+
+.btn:hover {
+  background-color: #7f6d54;
+}
+
+.resume{
+  padding-bottom: 0px;
+}
+
