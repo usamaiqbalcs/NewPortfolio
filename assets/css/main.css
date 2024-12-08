@@ -87,6 +87,11 @@ h6 {
   font-family: var(--heading-font);
 }
 
+.projectimg{
+  height: 200px;
+  object-fit: cover;
+}
+
 /* PHP Email Form Messages
 ------------------------------*/
 .php-email-form .error-message {
@@ -665,7 +670,8 @@ section,
 
 .hero:before {
   content: "";
-  background: color-mix(in srgb, var(--background-color), transparent 80%);
+  /* background: color-mix(in srgb, var(--background-color), transparent 80%); */
+  background: color-mix(in srgb, #000000, #00000030 80%);
   position: absolute;
   inset: 0;
   z-index: 2;
