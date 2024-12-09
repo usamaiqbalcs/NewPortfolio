@@ -1467,11 +1467,3 @@ section,
 .starter-section {
   /* Add your styles here */
 }
-
-.circle-icon {
-  width: 100px;      /* Set width */
-  height: 100px;     /* Set height (same as width for circle) */
-  border-radius: 50%;  /* Makes the image circular */
-  object-fit: cover;   /* Ensures the image covers the area without distortion */
-}
-
