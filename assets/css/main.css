@@ -1468,23 +1468,10 @@ section,
   /* Add your styles here */
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 20px;
-  font-size: 20px;
-  color: #fff;
-  background-color: #b8a07e;
-  border: none;
-  border-radius: 22px;
-  text-decoration: none;
-  cursor: pointer; 
-}
-
-.btn:hover {
-  background-color: #7f6d54;
-}
-
-.resume{
-  padding-bottom: 0px;
+.circle-icon {
+  width: 100px;      /* Set width */
+  height: 100px;     /* Set height (same as width for circle) */
+  border-radius: 50%;  /* Makes the image circular */
+  object-fit: cover;   /* Ensures the image covers the area without distortion */
 }
 
